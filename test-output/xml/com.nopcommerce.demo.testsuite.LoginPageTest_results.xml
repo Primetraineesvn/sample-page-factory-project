@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.567">
+           time="1.966">
   <properties />
   
   
-            <testcase name="verifyErrorMessageWithInvalidCredentials" time="1.059" classname="com.nopcommerce.demo.testsuite.LoginPageTest" />
-                <testcase name="verifyUserShouldNavigateToLoginPage" time="0.508" classname="com.nopcommerce.demo.testsuite.LoginPageTest" />
+            <testcase name="verifyUserShouldNavigateToLoginPage" time="0.697" classname="com.nopcommerce.demo.testsuite.LoginPageTest" />
+                <testcase name="verifyErrorMessageWithInvalidCredentials" time="1.269" classname="com.nopcommerce.demo.testsuite.LoginPageTest" />
       
 </testsuite>

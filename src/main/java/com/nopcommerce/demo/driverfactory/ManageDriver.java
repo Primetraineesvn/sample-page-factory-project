@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.PageFactory;
 
 import java.time.Duration;
 
@@ -16,6 +17,10 @@ public class ManageDriver {
 
     public static WebDriver driver;
     public String baseUrl = PropertyReader.getInstance().getProperty("baseUrl");
+
+    public ManageDriver() {
+        PageFactory.initElements(driver, this);
+    }
 
     public void selectBrowser(String browser) {
         if (browser.equalsIgnoreCase("chrome")) {
